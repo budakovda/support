@@ -43,6 +43,14 @@ alias pgit='git add .; git commit -m "next"; git push'
 alias fgit='pgit; git fetch; git pull'
 alias gclean='git clean -xf'
 
+# k8s
+alias k="kubectl"
+alias kg="kubectl get"
+alias kgy="kubectl get -o yaml"
+alias kd="kubectl describe"
+alias kl="kubectl logs"
+alias kga="kubectl get --all-namespaces"
+
 ```
 ### root
 ```sh
